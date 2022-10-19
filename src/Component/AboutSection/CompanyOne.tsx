@@ -24,7 +24,7 @@ const CompanyOne = () => {
                 <div className="sec-title centred">
                     <div className="title-top">
                         <div className="shape-box">
-                            <span className="shape shape-1">//</span>
+                            <span className="shape shape-1">\\</span>
                             <span className="shape shape-2">\\</span>
                         </div>
                         <h6>Who We Are</h6>

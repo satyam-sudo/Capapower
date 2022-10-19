@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import SideNav from "./SideNav";
 
 function Navbar() {
   const [text, setText] = useState("");
@@ -27,6 +28,7 @@ function Navbar() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   window.addEventListener("scroll", checkScrollTop);
+
   return (
     <>
       <header className="main-header">
@@ -95,19 +97,7 @@ function Navbar() {
       </header>
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-gradient">
         <div className="container">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <figure className="logo">
+        <figure className="logo">
               <Link to="/">
                 <img
                   className="header-logo img-fluid"
@@ -116,6 +106,7 @@ function Navbar() {
                 />
               </Link>
             </figure>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav justify-content-end navigation">
               <li className="nav-item">
                 <Link to="/" className="nav-link">
@@ -275,6 +266,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
+          <SideNav/>
         </div>
       </nav>
       <button
