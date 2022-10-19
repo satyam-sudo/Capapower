@@ -1,20 +1,20 @@
-import React from 'react'
-import AboutSection from './AboutSection'
-import Banner from './Banner'
-import ProjectLatest from './ProjectLatest'
-import ServiceSection from './ServiceSection'
-import Skill from './Skill'
+import React from "react";
+import Banner from "./Main/Banner";
+import AboutSection from "./Main/AboutSection";
+import ProjectLatest from "./Main/ProjectLatest";
+import ServiceSection from "./Main/ServiceSection";
+import Skill from "./Main/Skill";
 
 const Home = () => {
   return (
     <div>
-        <Banner/>
-        <AboutSection/>
-        <ServiceSection/>
-        <ProjectLatest/>
-        <Skill/>
+      <Banner />
+      <AboutSection />
+      <ServiceSection />
+      <ProjectLatest />
+      <Skill />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
