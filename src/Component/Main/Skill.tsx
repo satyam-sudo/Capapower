@@ -1,8 +1,18 @@
 import React from "react";
 
-const Skill = () => {
+const Skill = (done: any) => {
+  const [style, setStyle] = React.useState({});
+
+  setTimeout(() => {
+    const newStyle = {
+      opacity: 1,
+      width: `${done}%`,
+    };
+
+    setStyle(newStyle);
+  }, 200);
   return (
-    <div>
+    <>
       <section className="skills-section bg-color-2 sec-pad">
         <div className="bg-layer">
           <div className="bg-1"></div>
@@ -47,11 +57,10 @@ const Skill = () => {
                     <div className="progress-box">
                       <div className="bar-box">
                         <h6>Solar Energy</h6>
-                        <div className="bar">
-                          <div
-                            className="bar-inner count-bar"
-                            data-percent="62%"
-                          ></div>
+                        <div className="progress">
+                          <div className="progress-done" style={style}>
+                            {(done = 62)}%
+                          </div>
                         </div>
                       </div>
                       <div className="count-text">62%</div>
@@ -59,11 +68,10 @@ const Skill = () => {
                     <div className="progress-box">
                       <div className="bar-box">
                         <h6>Wind Energy</h6>
-                        <div className="bar">
-                          <div
-                            className="bar-inner count-bar"
-                            data-percent="89%"
-                          ></div>
+                        <div className="progress">
+                          <div className="progress-done" style={style}>
+                            {(done = 89)}%
+                          </div>
                         </div>
                       </div>
                       <div className="count-text">89%</div>
@@ -71,24 +79,22 @@ const Skill = () => {
                     <div className="progress-box">
                       <div className="bar-box">
                         <h6>Hydroelectric Energy</h6>
-                        <div className="bar">
-                          <div
-                            className="bar-inner count-bar"
-                            data-percent="75%"
-                          ></div>
+                        <div className="progress">
+                          <div className="progress-done" style={style}>
+                            {(done = 75)}%
+                          </div>
                         </div>
                       </div>
                       <div className="count-text">75%</div>
                     </div>
                   </div>
-                  <div className="author-box"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ const ProjectLatest = () => {
           <div className="sec-title centred">
             <div className="title-top">
               <div className="shape-box">
-                <span className="shape shape-1">\\</span>
+                <span className="shape shape-1">//</span>
                 <span className="shape shape-2">\\</span>
               </div>
               <h6>Latest Projects</h6>
@@ -158,6 +158,11 @@ const ProjectLatest = () => {
                             Leading the Innovations transition
                           </a>
                         </h5>
+                        <div className="link">
+                          <a href="portfolio-details.html">
+                            <i className="flaticon-right-arrow"></i>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -95,7 +95,7 @@ function Navbar() {
           </div>
         </div>
       </header>
-      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-gradient">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-gradient" >
         <div className="container">
         <figure className="logo">
               <Link to="/">
@@ -107,7 +107,7 @@ function Navbar() {
               </Link>
             </figure>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul className="navbar-nav justify-content-end navigation">
+            <ul className="navbar-nav justify-content-end navigation" style={{float:"right"}}>
               <li className="nav-item">
                 <Link to="/" className="nav-link">
                   Home
@@ -125,41 +125,41 @@ function Navbar() {
                   About
                 </Link>
                 <ul
-                  className="dropdown-menu dropdown-menu"
+                  className="dropdown"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
                   <li>
-                    <Link className="dropdown-item" to="/company">
+                    <Link className="dropdown" to="/company">
                       Company
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/team">
+                    <Link className="dropdown" to="/team">
                       Team
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/faq">
+                    <Link className="dropdown" to="/faq">
                       Faq’s
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/portfolio">
+                    <Link className="dropdown" to="/portfolio">
                       Portfolio
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/pricing">
+                    <Link className="dropdown" to="/pricing">
                       Pricing & Plan
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       404
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Coming Soon
                     </Link>
                   </li>
@@ -177,41 +177,41 @@ function Navbar() {
                   Services
                 </Link>
                 <ul
-                  className="dropdown-menu dropdown-menu"
+                  className="dropdown"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       All Services
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Technical Service
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Maintenance
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Panel Repair
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Monitoring
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Diagnostics
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Wind Turbines
                     </Link>
                   </li>
@@ -229,31 +229,31 @@ function Navbar() {
                   Shop
                 </Link>
                 <ul
-                  className="dropdown-menu dropdown-menu"
+                  className="dropdown"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Products
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Single Product
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Shopping Cart
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       Checkout
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown" to="/">
                       My Account
                     </Link>
                   </li>

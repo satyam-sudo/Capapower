@@ -39,7 +39,7 @@ const ServiceSection = () => {
                       />
                     </div>
                     <h5>
-                      <a href="service-details.html">For Four Wheeler</a>
+                      <Link to="service-details.html">For Four Wheeler</Link>
                     </h5>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const ServiceSection = () => {
                       />
                     </div>
                     <h5>
-                      <a href="service-details.html">For Heavy Vehicles</a>
+                      <Link to="service-details.html">For Heavy Vehicles</Link>
                     </h5>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const ServiceSection = () => {
                       />
                     </div>
                     <h5>
-                      <a href="service-details.html">Industrial Batteries</a>
+                      <Link to="service-details.html">Industrial Batteries</Link>
                     </h5>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const ServiceSection = () => {
                       />
                     </div>
                     <h5>
-                      <a href="service-details.html">Inverter Batteries</a>
+                      <Link to="service-details.html">Inverter Batteries</Link>
                     </h5>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const ServiceSection = () => {
                 <div className="text">
                   <p>
                     These cases are perfectly simple and easy to distinguish. In
-                    a free hour, when our power off choice is untrammelled.
+                    Link free hour, when our power off choice is untrammelled.
                   </p>
                 </div>
               </div>
@@ -161,10 +161,10 @@ const ServiceSection = () => {
                   </figure>
                   <div className="content-box">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="inner">
                       <div className="icon-box">
@@ -173,22 +173,22 @@ const ServiceSection = () => {
                       <div className="text">
                         <span className="category">high end</span>
                         <h3>
-                          <a href="service-details.html">technical Service</a>
+                          <Link to="service-details.html">technical Service</Link>
                         </h3>
                       </div>
                     </div>
                   </div>
                   <div className="overlay-content">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text">
                       <span className="category">high end</span>
                       <h3>
-                        <a href="service-details.html">technical Service</a>
+                        <Link to="service-details.html">technical Service</Link>
                       </h3>
                       <p>
                         Desires that they cannot foresee the pain trouble that
@@ -214,10 +214,10 @@ const ServiceSection = () => {
                   </figure>
                   <div className="content-box">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="inner">
                       <div className="icon-box">
@@ -226,22 +226,22 @@ const ServiceSection = () => {
                       <div className="text">
                         <span className="category">Operations</span>
                         <h3>
-                          <a href="service-details.html">& Maintenance</a>
+                          <Link to="service-details.html">& Maintenance</Link>
                         </h3>
                       </div>
                     </div>
                   </div>
                   <div className="overlay-content">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text">
                       <span className="category">Operations</span>
                       <h3>
-                        <a href="service-details.html">& Maintenance</a>
+                        <Link to="service-details.html">& Maintenance</Link>
                       </h3>
                       <p>
                         Indignation and dislikes men who are so beguiled all
@@ -267,10 +267,10 @@ const ServiceSection = () => {
                   </figure>
                   <div className="content-box">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="inner">
                       <div className="icon-box">
@@ -279,22 +279,22 @@ const ServiceSection = () => {
                       <div className="text">
                         <span className="category">Solar</span>
                         <h3>
-                          <a href="service-details.html">Panel Services</a>
+                          <Link to="service-details.html">Panel Services</Link>
                         </h3>
                       </div>
                     </div>
                   </div>
                   <div className="overlay-content">
                     <div className="link">
-                      <a href="service-details.html">
+                      <Link to="service-details.html">
                         <i className="flaticon-right-arrow"></i>
                         <span>More</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text">
                       <span className="category">Solar</span>
                       <h3>
-                        <a href="service-details.html">Panel Services</a>
+                        <Link to="service-details.html">Panel Services</Link>
                       </h3>
                       <p>
                         Beguiled and demoralized by the charms of pleasure of
